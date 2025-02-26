@@ -43,7 +43,7 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
 * [Roblox Voice Safety Classifier](https://github.com/Roblox/voice-safety-classifier)
-  * machine learnign model that detects and moderates harmful content in real-time voice chat on Roblox. Focuses on spoken language detection.
+  * machine learning model that detects and moderates harmful content in real-time voice chat on Roblox. Focuses on spoken language detection.
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
 * [NSFW Filtering](https://github.com/nsfw-filter/nsfw-filter)
