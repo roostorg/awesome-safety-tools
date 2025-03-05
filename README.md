@@ -14,11 +14,11 @@ Help and contribute by adding a pull request to add more resources and tools!
   * perceptual hash algorithm for images
 * [TMK by Meta](https://github.com/facebook/ThreatExchange/tree/main/tmk)
   * visual similarity match for videos
-* [VPDQ](https://github.com/facebook/ThreatExchange/tree/main/vpdq)
+* [VPDQ by Meta](https://github.com/facebook/ThreatExchange/tree/main/vpdq)
   * visual similarity match for videos using PDQ algorithm 
 * [Hasher-Matcher-Actioner (CLIP demo)](https://github.com/juanmrad/HMA-CLIP-demo)
   * HMA extension for CLIP as reference for adding other format extensins
-* [Perception ](https://github.com/thorn-oss/perception)
+* [Perception by Thorn](https://github.com/thorn-oss/perception)
   * provides a common wrapper around existing, popular perceptual hashes (such as those implemented by ImageHash)
 * [Altitude by Jigsaw](https://github.com/jigsaw-code/altitude)
   * web UI and hash matching for violent extremism and terrorism content
@@ -77,7 +77,7 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
 * [Marble](https://github.com/checkmarble/marble)
   * a real-time fraud detection and compliance engine tailored for fintech companies and financial institutions
-* [Automod](https://github.com/bluesky-social/indigo/tree/main/automod)
+* [Automod by Bluesky](https://github.com/bluesky-social/indigo/tree/main/automod)
   * a tool for automating content moderation processes for the Bluesky social network and other apps on the AT Protocol
 * [Wikimedia Smite Spam](https://github.com/wikimedia/mediawiki-extensions-SmiteSpam)
   * an extension for MediaWiki that helps identify and manage spam content on a wiki
