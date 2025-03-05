@@ -64,6 +64,21 @@ Help and contribute by adding a pull request to add more resources and tools!
   * framework designed to help users create internal tools without needing to write code
 * [Access by Discord](https://github.com/discord/access)
   * a centralized portal for managing access to internal systems within any organization
+ 
+## Redteaming Tools
+
+* [PyRIT Documentation](https://azure.github.io/PyRIT/)  
+  * Microsoft’s Python-based tool for AI red teaming and security testing.
+* [AI Benchmarking Tool](https://github.com/LLM-Canary/LLM-Canary)  
+  * Evaluates AI models for security vulnerabilities and adversarial robustness.
+* [Prompt Fuzzer Red Teaming Tool](https://github.com/prompt-security/ps-fuzz)  
+  * Tool for testing prompt injection vulnerabilities in AI systems.
+* [Open Source Red Teaming Tool – Nvidia](https://github.com/NVIDIA/garak)  
+  * Framework for adversarial testing and model evaluation.
+* [Tool that Enables Models to Chat with One Another](https://github.com/socketteer?tab=repositories) 
+  * Allows AI models to interact, helping test conversational weaknesses.
+* [Microsoft AI Tool – Counterfit](https://github.com/Azure/counterfit/)  
+  * Automation tool for assessing AI model security and robustness.
 
 ## Clustering
 * [SpamAssassin by Apache](https://spamassassin.apache.org)
@@ -103,8 +118,26 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [FediCheck](  https://about.iftas.org/activities/moderation-as-a-service/fedicheck/)
   * a web service designed to assist ActivityPub service providers, such as Mastodon servers
 
-## Datasets
+## Safety Datasets
 * [Aegis Content Safety by NVIDIA](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0)
   * a dataset created by NVIDIA to aid in content moderation and toxicity detection
 * [Toxicity by Jigsaw](https://huggingface.co/datasets/google/jigsaw_toxicity_pred)
   * a large number of Wikipedia comments which have been labeled by human raters for toxic behavior
+
+## Red Teaming Datasets
+* [Red Team Resistance Leaderboard](https://huggingface.co/spaces/HaizeLabs/red-teaming-resistance-benchmark)  
+  * rankings of AI models based on resistance to adversarial attacks.
+* [SidFeel Jailbreak Dataset](https://github.com/sidfeels/PromptsDB)  
+  * a collection of prompts used for jailbreaking AI models.
+* [HackAPrompt Jailbreak Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset/viewer/default/train?p=1&row=137)  
+  * a dataset for testing AI vulnerability to prompt-based jailbreaking.
+* [HiroKachi Jailbreak Dataset](https://sizu.me/love)  
+  * adataset focused on adversarial AI prompt attacks.
+* [Rentry Jailbreak Datasets](https://rentry.org/gpt0721)  
+  * collection of datasets related to jailbreak attempts on AI models.
+* [DEFCOM Red Teaming Dataset](https://github.com/humane-intelligence/ai_village_defcon_grt_data)  
+  * dataset from DEF CON’s AI red teaming event.
+* [Anthropic’s AI Alignment Dataset](https://atlas.nomic.ai/map/anthropic_rlhf)  
+  * data used for reinforcement learning with human feedback (RLHF) to align AI models.
+* [Jailbreak Prompt Generator AI Model](https://huggingface.co/tsq2000/Jailbreak-generator)  
+  * AI model that generates jailbreak-style prompts.
