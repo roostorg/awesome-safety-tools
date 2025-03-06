@@ -96,6 +96,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a tool for automating content moderation processes for the Bluesky social network and other apps on the AT Protocol
 * [Wikimedia Smite Spam](https://github.com/wikimedia/mediawiki-extensions-SmiteSpam)
   * an extension for MediaWiki that helps identify and manage spam content on a wiki
+* [Druid by Apache](https://github.com/apache/druid)
+  * a high performance real-time analytics database
 
 
 ## Review
