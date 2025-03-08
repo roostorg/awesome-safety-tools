@@ -90,6 +90,8 @@ Help and contribute by adding a pull request to add more resources and tools!
 ## Rules Engines
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
   * a library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
+* [SQRL](https://github.com/sqrl-lang/sqrl)
+  * a qurying language originally written for abuse prevention at scale and used at Twitter
 * [Marble](https://github.com/checkmarble/marble)
   * a real-time fraud detection and compliance engine tailored for fintech companies and financial institutions
 * [Automod by Bluesky](https://github.com/bluesky-social/indigo/tree/main/automod)
