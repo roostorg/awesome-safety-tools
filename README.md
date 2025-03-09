@@ -53,6 +53,11 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [Guardrails AI](https://github.com/guardrails-ai/guardrails)
   * a Python framework that helps build safe AI applications checking input/output for predefined risks
 
+## Privacy Protection
+* [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
+  * Code and binaries to confuse AIs when trying to match identity to photos, such as [Clearview](https://www.theverge.com/23919134/kashmir-hill-your-face-belongs-to-us-clearview-ai-facial-recognition-privacy-decoder)
+  * Many other great tools at github.com/Shawn-Shan, MIT researcher
+
 ## Core Infrastructure
 * [Mjolnir by Matrix](https://github.com/matrix-org/mjolnir)
   * moderation bot for the Matrix protocol that automatically enforces content policies
