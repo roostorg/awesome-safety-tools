@@ -52,6 +52,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * convoluted neural network (CNN) based explicit image ML model 
 * [Guardrails AI](https://github.com/guardrails-ai/guardrails)
   * a Python framework that helps build safe AI applications checking input/output for predefined risks
+* [Private Detector by Bumble](https://github.com/bumble-tech/private-detector)
+  * a pretrained model for detecting lewd images
 
 ## Privacy Protection
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
