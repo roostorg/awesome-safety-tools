@@ -124,8 +124,7 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a PHP client for ThreatExchange
 * [ThreatExchange via Python](https://github.com/facebook/ThreatExchange/tree/main/python-threatexchange)
   * a Python library for ThreatExchange
-* [FediCheck](  https://about.iftas.org/activities/moderation-as-a-service/fedicheck/)
-  * a web service designed to assist ActivityPub service providers, such as Mastodon servers
+
 
 ## Safety Datasets
 * [Aegis Content Safety by NVIDIA](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0)
@@ -150,3 +149,11 @@ Help and contribute by adding a pull request to add more resources and tools!
   * data used for reinforcement learning with human feedback (RLHF) to align AI models.
 * [Jailbreak Prompt Generator AI Model](https://huggingface.co/tsq2000/Jailbreak-generator)  
   * AI model that generates jailbreak-style prompts.
+ 
+## Fediverse
+* [FediCheck](  https://about.iftas.org/activities/moderation-as-a-service/fedicheck/)
+  * a web service designed to assist ActivityPub service providers, such as Mastodon servers
+
+* [Fediverse Spam Filtering](https://about.iftas.org/activities/moderation-as-a-service/fedicheck/](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
+  * a spam filter for Fediverse social media platforms. For now, the current version is only a proof of concept.
+ 
