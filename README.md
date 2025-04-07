@@ -93,7 +93,6 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [scikit-learn](https://github.com/scikit-learn/scikit-learn)
   * python library including clustering through various algorithms, such as K-Means, DBSCAN, and hierarchical clustering
 
-
 ## Rules Engines
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
   * a library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
@@ -105,7 +104,6 @@ Help and contribute by adding a pull request to add more resources and tools!
   * an extension for MediaWiki that helps identify and manage spam content on a wiki
 * [Druid by Apache](https://github.com/apache/druid)
   * a high performance real-time analytics database
-
 
 ## Review
 * [RabbitMQ](https://github.com/rabbitmq)
@@ -125,6 +123,9 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [ThreatExchange via Python](https://github.com/facebook/ThreatExchange/tree/main/python-threatexchange)
   * a Python library for ThreatExchange
 
+## Investigation
+* [OpenMeasures](https://public.openmeasures.io/timeline)
+  * While the code is not open sourced, OpenMeasures provides a free tool as well as paid features that enable investigation on social media platforms.
 
 ## Safety Datasets
 * [Aegis Content Safety by NVIDIA](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0)
