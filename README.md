@@ -46,6 +46,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * machine learning model that detects and moderates harmful content in real-time voice chat on Roblox. Focuses on spoken language detection.
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
+* [Toxic Prompt RoBERTa by Intel](https://huggingface.co/Intel/toxic-prompt-roberta)
+  * a BERT-based model for detecting toxic content in prompts to language models
 * [NSFW Filtering](https://github.com/nsfw-filter/nsfw-filter)
   * browser extension to block explicit images from online platforms. User facing.
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
@@ -131,10 +133,14 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a dataset created by NVIDIA to aid in content moderation and toxicity detection
 * [Toxicity by Jigsaw](https://huggingface.co/datasets/google/jigsaw_toxicity_pred)
   * a large number of Wikipedia comments which have been labeled by human raters for toxic behavior
+* [Toxic Chat by LMSYS](https://huggingface.co/datasets/lmsys/toxic-chat)
+  * a dataset of toxic conversations collected from interactions with Vicuna
 
 ## Red Teaming Datasets
 * [Red Team Resistance Leaderboard](https://huggingface.co/spaces/HaizeLabs/red-teaming-resistance-benchmark)  
   * rankings of AI models based on resistance to adversarial attacks.
+* [JailbreakHub by WalledAI](https://huggingface.co/datasets/walledai/JailbreakHub)
+  * a collection of jailbreak prompts and corresponding model responses
 * [SidFeel Jailbreak Dataset](https://github.com/sidfeels/PromptsDB)  
   * a collection of prompts used for jailbreaking AI models.
 * [HackAPrompt Jailbreak Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset/viewer/default/train?p=1&row=137)  
