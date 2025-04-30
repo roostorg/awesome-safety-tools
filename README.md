@@ -38,6 +38,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 * [Llama Guard by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * AI-powered content moderation model to detect harm in text-based interactions
+* [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
+  * Detects prompt injection and jailbreaking attacks in LLM inputs.
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
 * [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
