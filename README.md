@@ -159,9 +159,11 @@ Help and contribute by adding a pull request to add more resources and tools!
   * AI model that generates jailbreak-style prompts.
  
 ## Fediverse
-* [FediCheck](  https://about.iftas.org/activities/moderation-as-a-service/fedicheck/)
-  * a web service designed to assist ActivityPub service providers, such as Mastodon servers
+* [FediCheck](https://connect.iftas.org/library/iftas-documentation/fedicheck/)
+  * domain moderation tool to assist ActivityPub service providers, such as Mastodon servers, now open-sourced.
 
 * [Fediverse Spam Filtering](https://about.iftas.org/activities/moderation-as-a-service/fedicheck/](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
   * a spam filter for Fediverse social media platforms. For now, the current version is only a proof of concept.
  
+* [FIRES](https://github.com/fedimod/fires)
+  * reference server + protocol for the exchange of moderation adivsories and recommendations
