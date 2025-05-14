@@ -132,6 +132,10 @@ Help and contribute by adding a pull request to add more resources and tools!
   * A configurable engine for analysing multi-lingual and multi-modal content
 * [DAU Dashboard by Tattle](https://github.com/tattle-made/dau-dashboard)
   * Deepfake Analysis Unit(DAU) is a collaborative space for analyzing deepfakes
+* [CIB MangoTree](https://github.com/CIB-Mango-Tree/CIB-Mango-Tree-Website)
+  * A collection of tools to aid researchers in coordinated inauthentic behavior (CIB) analysis
+* [Interference by Digital Forensics Research Lab](https://github.com/DFRLab/interference2024)
+  * an interactive, open-source database that tracks allegations of foreign interference or foreign malign influence relevant to the 2024 U.S. presidential election
 
 
 ## Safety Datasets
