@@ -121,13 +121,17 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [NCMEC Reporting by ello](https://github.com/ello/ncmec_reporting)
   * a Ruby client library for reporting incidents to the National Center for Missing & Exploited Children (NCMEC) CyberTipline
 
-## Threat Intelligence
+## Investigation
 * [ThreatExchange by Meta](https://github.com/facebook/ThreatExchange )
   * a platform that enables organizations to share information about  threats, such as malware, phishing attacks, and online safety harms in a structured and privacy-compliant manner
 * [ThreatExchange Client via PHP](https://github.com/certly/threatexchange)
   * a PHP client for ThreatExchange
 * [ThreatExchange via Python](https://github.com/facebook/ThreatExchange/tree/main/python-threatexchange)
   * a Python library for ThreatExchange
+* [Feluda by Tattle](https://github.com/tattle-made/feluda)
+  * A configurable engine for analysing multi-lingual and multi-modal content
+* [DAU Dashboard by Tattle](https://github.com/tattle-made/dau-dashboard)
+  * Deepfake Analysis Unit(DAU) is a collaborative space for analyzing deepfakes
 
 
 ## Safety Datasets
@@ -137,6 +141,9 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a large number of Wikipedia comments which have been labeled by human raters for toxic behavior
 * [Toxic Chat by LMSYS](https://huggingface.co/datasets/lmsys/toxic-chat)
   * a dataset of toxic conversations collected from interactions with Vicuna
+* [Uli Dataset by Tattle](https://github.com/tattle-made/uli_dataset)
+  * A dataset of gendered abuse, created for Uli ML redaction.
+
 
 ## Red Teaming Datasets
 * [Red Team Resistance Leaderboard](https://huggingface.co/spaces/HaizeLabs/red-teaming-resistance-benchmark)  
@@ -162,8 +169,14 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [FediCheck](https://connect.iftas.org/library/iftas-documentation/fedicheck/)
   * domain moderation tool to assist ActivityPub service providers, such as Mastodon servers, now open-sourced.
 
-* [Fediverse Spam Filtering](https://about.iftas.org/activities/moderation-as-a-service/fedicheck/](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
+* [Fediverse Spam Filtering](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
   * a spam filter for Fediverse social media platforms. For now, the current version is only a proof of concept.
  
 * [FIRES](https://github.com/fedimod/fires)
   * reference server + protocol for the exchange of moderation adivsories and recommendations
+
+## User Safety Tools
+* [Uli by Tattle](https://github.com/tattle-made/Uli)
+  * Software and Resources for Mitigating Online Gender Based Violence in India
+
+
