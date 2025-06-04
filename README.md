@@ -90,6 +90,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * Allows AI models to interact, helping test conversational weaknesses.
 * [Microsoft AI Tool – Counterfit](https://github.com/Azure/counterfit/)  
   * Automation tool for assessing AI model security and robustness.
+* [Automated AI Alignment Evals - Aymara](https://github.com/aymara-ai/aymara-sdk-python)
+  * Automated eval tools for AI safety, accuracy, and jailbreak vulnerability.
 
 ## Clustering
 * [SpamAssassin by Apache](https://spamassassin.apache.org)
