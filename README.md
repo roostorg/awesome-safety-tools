@@ -136,6 +136,10 @@ Help and contribute by adding a pull request to add more resources and tools!
   * A collection of tools to aid researchers in coordinated inauthentic behavior (CIB) analysis
 * [Interference by Digital Forensics Research Lab](https://github.com/DFRLab/interference2024)
   * an interactive, open-source database that tracks allegations of foreign interference or foreign malign influence relevant to the 2024 U.S. presidential election
+* [Crossover](https://crossover.social/)
+  * An open-source project that builds dashboards for monitoring and analyzing the recommendation algorithms of social networks, with a focus on disinformation and election monitoring.
+* [TikTok Observatory](https://github.com/aiforensics/tkobservatory)
+  * An open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok reccomendation algorithm. 
 
 
 ## Safety Datasets
