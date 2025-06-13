@@ -34,8 +34,6 @@ Help and contribute by adding a pull request to add more resources and tools!
   * toolkit of machine learning (ML) tools, models, and APIs that platforms can use to moderate content
 * [Perspective API by Jigsaw](https://github.com/conversationai/perspectiveapi)
   * machine learning-powered tool that helps platforms detect and assess the toxicity of online conversations
-* [Presidio by Microsoft](https://github.com/microsoft/presidio)
-  * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 * [Llama Guard by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * AI-powered content moderation model to detect harm in text-based interactions
 * [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
@@ -63,6 +61,8 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
   * Code and binaries to confuse AIs when trying to match identity to photos, such as [Clearview](https://www.theverge.com/23919134/kashmir-hill-your-face-belongs-to-us-clearview-ai-facial-recognition-privacy-decoder)
   * Many other great tools at github.com/Shawn-Shan, MIT researcher
+* [Presidio by Microsoft](https://github.com/microsoft/presidio)
+  * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 
 ## Core Infrastructure
 * [Mjolnir by Matrix](https://github.com/matrix-org/mjolnir)
