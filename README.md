@@ -1,8 +1,8 @@
 # awesome-safety-tools
-A curated collection of open source tools for online safety
+A collection of open source tools for online safety
 
 
-Inspired by prior work like [Awesome Redteaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming/) and [Awesome Phishing](https://github.com/PhishyAlice/awesome-phishing). 
+Inspired by prior work like [Awesome Redteaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming/) and [Awesome Phishing](https://github.com/PhishyAlice/awesome-phishing). This list is not an endorsement, but rather an attempt to organize and map the available technology ❤️
 
 Help and contribute by adding a pull request to add more resources and tools!
 
@@ -34,14 +34,6 @@ Help and contribute by adding a pull request to add more resources and tools!
   * toolkit of machine learning (ML) tools, models, and APIs that platforms can use to moderate content
 * [Perspective API by Jigsaw](https://github.com/conversationai/perspectiveapi)
   * machine learning-powered tool that helps platforms detect and assess the toxicity of online conversations
-* [Llama Guard by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
-  * AI-powered content moderation model to detect harm in text-based interactions
-* [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
-  * Detects prompt injection and jailbreaking attacks in LLM inputs.
-* [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
-  * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
-* [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
-  * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
 * [Roblox Voice Safety Classifier](https://github.com/Roblox/voice-safety-classifier)
   * machine learning model that detects and moderates harmful content in real-time voice chat on Roblox. Focuses on spoken language detection.
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
@@ -52,10 +44,22 @@ Help and contribute by adding a pull request to add more resources and tools!
   * browser extension to block explicit images from online platforms. User facing.
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
   * convoluted neural network (CNN) based explicit image ML model 
-* [Guardrails AI](https://github.com/guardrails-ai/guardrails)
-  * a Python framework that helps build safe AI applications checking input/output for predefined risks
 * [Private Detector by Bumble](https://github.com/bumble-tech/private-detector)
   * a pretrained model for detecting lewd images
+
+## AI-powered Guardrails
+* [Llama Guard by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
+  * AI-powered content moderation model to detect harm in text-based interactions
+* [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
+  * Detects prompt injection and jailbreaking attacks in LLM inputs.
+* [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
+  * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
+* [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
+  * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
+* [Guardrails AI](https://github.com/guardrails-ai/guardrails)
+  * a Python framework that helps build safe AI applications checking input/output for predefined risks
+* [RoGuard](https://github.com/Roblox/RoGuard-1.0)
+  * a LLM that helps safeguard unlimited text generation on Roblox
 
 ## Privacy Protection
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
@@ -69,8 +73,6 @@ Help and contribute by adding a pull request to add more resources and tools!
   * moderation bot for the Matrix protocol that automatically enforces content policies
 * [AbuseIO](https://github.com/AbuseIO/AbuseIO)
   * abuse management platform designed to help organizations handle and track abuse complaints related to online content, infrastructure, or services
-* [Ozone by Bluesky](https://github.com/bluesky-social/ozone)
-  * labeling tool designed for Bluesky. Includes moderation features to action on abuse flags, policy enforcement tools, and investigation features
 * [Open Truss by Github](https://github.com/open-truss/open-truss)
   * framework designed to help users create internal tools without needing to write code
 * [Access by Discord](https://github.com/discord/access)
@@ -105,8 +107,6 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
 * [Marble](https://github.com/checkmarble/marble)
   * a real-time fraud detection and compliance engine tailored for fintech companies and financial institutions
-* [Automod by Bluesky](https://github.com/bluesky-social/indigo/tree/main/automod)
-  * a tool for automating content moderation processes for the Bluesky social network and other apps on the AT Protocol
 * [Wikimedia Smite Spam](https://github.com/wikimedia/mediawiki-extensions-SmiteSpam)
   * an extension for MediaWiki that helps identify and manage spam content on a wiki
 * [Druid by Apache](https://github.com/apache/druid)
@@ -142,6 +142,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * An open-source project that builds dashboards for monitoring and analyzing the recommendation algorithms of social networks, with a focus on disinformation and election monitoring.
 * [TikTok Observatory](https://github.com/aiforensics/tkobservatory)
   * An open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok reccomendation algorithm. 
+* [OpenMeasures](https://gitlab.com/openmeasures)
+  * an open source platform for investigating internet trends
 
 
 ## Safety Datasets
@@ -175,18 +177,27 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [Jailbreak Prompt Generator AI Model](https://huggingface.co/tsq2000/Jailbreak-generator)  
   * AI model that generates jailbreak-style prompts.
  
-## Fediverse
+## Decentralized Platforms
 * [FediCheck](https://connect.iftas.org/library/iftas-documentation/fedicheck/)
   * domain moderation tool to assist ActivityPub service providers, such as Mastodon servers, now open-sourced.
-
 * [Fediverse Spam Filtering](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
   * a spam filter for Fediverse social media platforms. For now, the current version is only a proof of concept.
- 
 * [FIRES](https://github.com/fedimod/fires)
   * reference server + protocol for the exchange of moderation adivsories and recommendations
+* [Ozone by Bluesky](https://github.com/bluesky-social/ozone)
+  * labeling tool designed for Bluesky. Includes moderation features to action on abuse flags, policy enforcement tools, and investigation features
+* [Automod by Bluesky](https://github.com/bluesky-social/indigo/tree/main/automod)
+  * a tool for automating content moderation processes for the Bluesky social network and other apps on the AT Protocol
 
 ## User Safety Tools
 * [Uli by Tattle](https://github.com/tattle-made/Uli)
   * Software and Resources for Mitigating Online Gender Based Violence in India
+* [Frankly by Applied Social Media Lab](https://github.com/berkmancenter/frankly/)
+  * an online deliberations platform that allows anyone to host video-enabled conversations about any topic
+* [PolicyKit by UW Social Futures Lab](https://github.com/policykit/policykit)
+  * a toolkit for building governance in your online community
+* [SquadBox by UW Social Futures Lab](https://github.com/amyxzhang/squadbox)
+  * a tool to help people who are being harassed online by having their friends (or “squad”) moderate their messages
+
 
 
