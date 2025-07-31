@@ -123,6 +123,7 @@ Help and contribute by adding a pull request to add more resources and tools!
 * [NCMEC Reporting by ello](https://github.com/ello/ncmec_reporting)
   * a Ruby client library for reporting incidents to the National Center for Missing & Exploited Children (NCMEC) CyberTipline
 
+
 ## Investigation
 * [ThreatExchange by Meta](https://github.com/facebook/ThreatExchange )
   * a platform that enables organizations to share information about  threats, such as malware, phishing attacks, and online safety harms in a structured and privacy-compliant manner
@@ -146,7 +147,7 @@ Help and contribute by adding a pull request to add more resources and tools!
   * an open source platform for investigating internet trends
 
 
-## Safety Datasets
+## Datasets
 * [Aegis Content Safety by NVIDIA](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0)
   * a dataset created by NVIDIA to aid in content moderation and toxicity detection
 * [Toxicity by Jigsaw](https://huggingface.co/datasets/google/jigsaw_toxicity_pred)
@@ -155,6 +156,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a dataset of toxic conversations collected from interactions with Vicuna
 * [Uli Dataset by Tattle](https://github.com/tattle-made/uli_dataset)
   * A dataset of gendered abuse, created for Uli ML redaction.
+* [VTC by Unitary AI](https://github.com/unitaryai/VTC)
+  * an implementation of video-text retrieval with comments including a dataset, method of identifying relevant auxiliary information that adds context to videos, and quantification of the value comment-modality bring to video.
 
 
 ## Red Teaming Datasets
