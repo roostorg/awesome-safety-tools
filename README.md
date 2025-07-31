@@ -122,6 +122,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * an OSINT (Open-Source Intelligence) toolkit and case management platform
 * [NCMEC Reporting by ello](https://github.com/ello/ncmec_reporting)
   * a Ruby client library for reporting incidents to the National Center for Missing & Exploited Children (NCMEC) CyberTipline
+* [VTC by Unitary AI](https://github.com/unitaryai/VTC)
+  * an implementation of video-text retrieval with comments including a dataset, method of identifying relevant auxiliary information that adds context to videos, and quantification of the value comment-modality bring to video. Possibly helpful for review/moderation.
 
 ## Investigation
 * [ThreatExchange by Meta](https://github.com/facebook/ThreatExchange )
