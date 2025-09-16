@@ -105,6 +105,8 @@ Help and contribute by adding a pull request to add more resources and tools!
 
 
 ## Rules Engines
+* [Osprey by ROOST](https://github.com/roostorg/osprey)
+  * a high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
   * a library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
 * [Marble](https://github.com/checkmarble/marble)
