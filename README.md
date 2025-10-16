@@ -46,6 +46,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * convoluted neural network (CNN) based explicit image ML model 
 * [Private Detector by Bumble](https://github.com/bumble-tech/private-detector)
   * a pretrained model for detecting lewd images
+* [Google Content Safety API](https://cloud.google.com/safesearch/docs/content-safety)
+  * a free service by Google that uses machine learning to detect child sexual abuse material (CSAM), nudity, and sexually explicit content in images and videos. Widely used by NGOs, platforms, and law enforcement partners to support online child safety initiatives. (industry service not open source)
 * [Sentinel by Roblox](https://github.com/Roblox/Sentinel/tree/main)
   * a Python library designed specifically for realtime detection of extremely rare classes of text by using contrastive learning principles
 
