@@ -30,6 +30,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * CSAM hash matching for Wikimedia
 
 ## Classification
+* [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-a-9b)
+  * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [OSmod by Jigsaw](https://github.com/conversationai/conversationai-moderator)
   * toolkit of machine learning (ML) tools, models, and APIs that platforms can use to moderate content
 * [Perspective API by Jigsaw](https://github.com/conversationai/perspectiveapi)
