@@ -64,6 +64,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a Python framework that helps build safe AI applications checking input/output for predefined risks
 * [RoGuard](https://github.com/Roblox/RoGuard-1.0)
   * a LLM that helps safeguard unlimited text generation on Roblox
+* [Kanana Safeguard By Kakao](https://huggingface.co/kakaocorp/kanana-safeguard-8b)
+  * A harmful content detection model based on Kanana 8B
 
 ## Privacy Protection
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
