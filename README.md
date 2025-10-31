@@ -50,6 +50,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * a pretrained model for detecting lewd images
 * [Sentinel by Roblox](https://github.com/Roblox/Sentinel/tree/main)
   * a Python library designed specifically for realtime detection of extremely rare classes of text by using contrastive learning principles
+* [gpt-oss-safeguard by OpenAI](https://github.com/openai/gpt-oss-safeguard)
+  * open-weight reasoning model to classify text content based on provided safety policies 
 
 ## AI-powered Guardrails
 * [Llama Guard by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
