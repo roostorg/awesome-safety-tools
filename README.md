@@ -100,6 +100,8 @@ Help and contribute by adding a pull request to add more resources and tools!
   * Automation tool for assessing AI model security and robustness.
 * [Automated AI Alignment Evals - Aymara](https://github.com/aymara-ai/aymara-sdk-python)
   * Automated eval tools for AI safety, accuracy, and jailbreak vulnerability.
+* [LLM Evals & red teaming Promptfoo](https://github.com/promptfoo/promptfoo)
+  * Automated evaluations, report generations, several ready-to-use attack strategies.
 
 ## Clustering
 * [SpamAssassin by Apache](https://spamassassin.apache.org)
