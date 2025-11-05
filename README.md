@@ -33,13 +33,13 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Classification
 
+* [Content Safety API by Google](https://cloud.google.com/safesearch/docs/content-safety)
+  * uses machine learning to detect child sexual abuse material (CSAM), nudity, and sexually explicit content in images and videos
+  * free service, but not open source
 * [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-a-9b)
   * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
-* [Content Safety API by Google](https://cloud.google.com/safesearch/docs/content-safety)
-  * uses machine learning to detect child sexual abuse material (CSAM), nudity, and sexually explicit content in images and videos
-  * free service, but not open source
 * [gpt-oss-safeguard by OpenAI](https://github.com/openai/gpt-oss-safeguard)
   * open-weight reasoning model to classify text content based on provided safety policies
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
