@@ -77,7 +77,6 @@ Help contribute by opening a pull request to add more resources and tools!
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
 
 
-
 ## Privacy Protection
 
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
