@@ -73,6 +73,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * LLM that helps safeguard unlimited text generation on Roblox
 * [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
+* [OpenGuardrails](https://www.openguardrails.com/)
+  * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 
 
 ## Privacy Protection
