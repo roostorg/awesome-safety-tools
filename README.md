@@ -15,6 +15,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * hashing algorithm, matching function, and ability to hook into actions
 * [Hasher-Matcher-Actioner (CLIP demo)](https://github.com/juanmrad/HMA-CLIP-demo)
   * HMA extension for CLIP as reference for adding other format extensions
+* [hma-matrix by the Matrix.org Foundation](https://github.com/matrix-org/hma-matrix)
+  * Matrix-specific extensions to HMA for (primarily) the Matrix ecosystem
 * [Lattice Extract by Adobe](https://github.com/adobe/lattice_extract)
   * grid and lattice detection to guard against FP in hash matching
 * [MediaModeration (Wiki Extension)](https://github.com/wikimedia/mediawiki-extensions-MediaModeration?tab=readme-ov-file)
