@@ -120,6 +120,8 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Clustering
 
+* [bogofilter](https://bogofilter.sourceforge.io/)
+  * spam filter that classifies text using Bayesian statistical analysis; able to learn from classifications and corrections
 * [scikit-learn](https://github.com/scikit-learn/scikit-learn)
   * python library including clustering through various algorithms, such as K-Means, DBSCAN, and hierarchical clustering
 * [SpamAssassin by Apache](https://spamassassin.apache.org)
