@@ -236,6 +236,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * online deliberations platform that allows anyone to host video-enabled conversations about any topic
 * [PolicyKit by UW Social Futures Lab](https://github.com/policykit/policykit)
   * toolkit for building governance in your online community
+* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
+  * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
 * [SquadBox by UW Social Futures Lab](https://github.com/amyxzhang/squadbox)
   * tool to help people who are being harassed online by having their friends (or “squad”) moderate their messages
 * [Uli by Tattle](https://github.com/tattle-made/Uli)
