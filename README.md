@@ -69,7 +69,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * AI-powered content moderation model to detect harm in text-based interactions
 * [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
   * Detects prompt injection and jailbreaking attacks in LLM inputs
-* [OpenGuardrails](https://www.openguardrails.com/)
+* [OpenGuardrails](https://github.com/openguardrails/openguardrails)
   * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
@@ -114,7 +114,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * Tool for testing prompt injection vulnerabilities in AI systems
 * [Promptfoo](https://github.com/promptfoo/promptfoo)
   * Automated LLM evaluations, report generations, several ready-to-use attack strategies
-* [PyRIT Documentation](https://azure.github.io/PyRIT/)  
+* [PyRIT](https://github.com/Azure/PyRIT)  
   * Microsoft’s Python-based tool for AI red teaming and security testing
 * [Socketteer](https://github.com/socketteer?tab=repositories)
   * Allows AI models to interact, helping test conversational weaknesses
