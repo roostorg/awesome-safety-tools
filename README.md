@@ -15,6 +15,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * hashing algorithm, matching function, and ability to hook into actions
 * [Hasher-Matcher-Actioner (CLIP demo)](https://github.com/juanmrad/HMA-CLIP-demo)
   * HMA extension for CLIP as reference for adding other format extensions
+* [hma-matrix by the Matrix.org Foundation](https://github.com/matrix-org/hma-matrix)
+  * Matrix-specific extensions to HMA for (primarily) the Matrix ecosystem
 * [Lattice Extract by Adobe](https://github.com/adobe/lattice_extract)
   * grid and lattice detection to guard against FP in hash matching
 * [MediaModeration (Wiki Extension)](https://github.com/wikimedia/mediawiki-extensions-MediaModeration?tab=readme-ov-file)
@@ -120,6 +122,8 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Clustering
 
+* [bogofilter](https://bogofilter.sourceforge.io/)
+  * spam filter that classifies text using Bayesian statistical analysis; able to learn from classifications and corrections
 * [scikit-learn](https://github.com/scikit-learn/scikit-learn)
   * python library including clustering through various algorithms, such as K-Means, DBSCAN, and hierarchical clustering
 * [SpamAssassin by Apache](https://spamassassin.apache.org)
