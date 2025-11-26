@@ -184,6 +184,8 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [Aegis Content Safety by NVIDIA](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0)
   * dataset created by NVIDIA to aid in content moderation and toxicity detection
+* [badwords by Richard Hughes](https://github.com/hughsie/badwords)
+  * simple list of bad words in different locales that can be used to flag suspicious user-submitted content
 * [Toxic Chat by LMSYS](https://huggingface.co/datasets/lmsys/toxic-chat)
   * dataset of toxic conversations collected from interactions with Vicuna
 * [Toxicity by Jigsaw](https://huggingface.co/datasets/google/jigsaw_toxicity_pred)
