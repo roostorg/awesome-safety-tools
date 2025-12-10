@@ -66,7 +66,7 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Kanana Safeguard By Kakao](https://huggingface.co/kakaocorp/kanana-safeguard-8b)
   * harmful content detection model based on Kanana 8B
 * [Granite Guardian by IBM Research](https://github.com/ibm-granite/granite-guardian)
-  * an input-output (thinking) guardrail for detecting harms in a variety of use cases (general harm, RAG settings, agentic workflows, etc.)
+  * an input-output guardrail for detecting harms in a variety of use cases (general harm, RAG settings, agentic workflows, etc.)
 * [Llama Guard by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * AI-powered content moderation model to detect harm in text-based interactions
 * [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
