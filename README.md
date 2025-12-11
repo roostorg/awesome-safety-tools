@@ -65,6 +65,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * Python framework that helps build safe AI applications checking input/output for predefined risks
 * [Kanana Safeguard By Kakao](https://huggingface.co/kakaocorp/kanana-safeguard-8b)
   * harmful content detection model based on Kanana 8B
+* [Granite Guardian by IBM Research](https://github.com/ibm-granite/granite-guardian)
+  * an input-output guardrail for detecting harms in a variety of use cases (general harm, RAG settings, agentic workflows, etc.)
 * [Llama Guard by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * AI-powered content moderation model to detect harm in text-based interactions
 * [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
@@ -184,6 +186,8 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [Aegis Content Safety by NVIDIA](https://huggingface.co/datasets/nvidia/Aegis-AI-Content-Safety-Dataset-2.0)
   * dataset created by NVIDIA to aid in content moderation and toxicity detection
+* [badwords by Richard Hughes](https://github.com/hughsie/badwords)
+  * simple list of bad words in different locales that can be used to flag suspicious user-submitted content
 * [Toxic Chat by LMSYS](https://huggingface.co/datasets/lmsys/toxic-chat)
   * dataset of toxic conversations collected from interactions with Vicuna
 * [Toxicity by Jigsaw](https://huggingface.co/datasets/google/jigsaw_toxicity_pred)
