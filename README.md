@@ -5,7 +5,10 @@ A collection of open source tools for online safety
 Inspired by prior work like [Awesome Redteaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming/) and [Awesome Phishing](https://github.com/PhishyAlice/awesome-phishing). This list is not an endorsement, but rather an attempt to organize and map the available technology. ❤️
 
 Help contribute by opening a pull request to add more resources and tools!
+## Conversational AI Safety
 
+* [VerusOS Safety Filter](https://github.com/AITherapySolutions/verusos-mvp)
+  * Real-time crisis and grooming detection API for conversational AI applications; context-aware to reduce false positives on song lyrics, roleplay, and gaming chat
 
 ## Hash Matching
 
