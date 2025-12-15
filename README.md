@@ -59,7 +59,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * BERT-based model for detecting toxic content in prompts to language models
 
 
-## AI-powered Guardrails
+## AI for Safety
 
 * [Guardrails AI](https://github.com/guardrails-ai/guardrails)
   * Python framework that helps build safe AI applications checking input/output for predefined risks
