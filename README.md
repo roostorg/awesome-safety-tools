@@ -41,6 +41,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
 * [gpt-oss-safeguard by OpenAI](https://github.com/openai/gpt-oss-safeguard)
   * open-weight reasoning model to classify text content based on provided safety policies
+* [Safeguard](https://github.com/lukeslp/oss-safeguard-ux)
+  * Web interface for OpenAI's gpt-oss-safeguard content moderation model with streamed reasoning, editable policies, and WCAG-compliant accessibility
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
   * convoluted neural network (CNN) based explicit image ML model
 * [NSFW Filtering](https://github.com/nsfw-filter/nsfw-filter)
