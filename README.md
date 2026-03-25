@@ -38,6 +38,10 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Classification
 
+* [Content Safety API by Google](https://protectingchildren.google/tools-for-partners/#learn-about-our-tools)
+  * uses machine learning to detect novel CSAM, nudity, and sexually explicit content in images and videos
+  * free service, but requires registration
+  * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/SIGNALS.html#content-safety-api-by-google), which is open source
 * [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-a-9b)
   * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
@@ -62,7 +66,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * BERT-based model for detecting toxic content in prompts to language models
 
 
-## AI-powered Guardrails
+## AI for Safety
 
 * [Guardrails AI](https://github.com/guardrails-ai/guardrails)
   * Python framework that helps build safe AI applications checking input/output for predefined risks
@@ -122,7 +126,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * Tool for testing prompt injection vulnerabilities in AI systems
 * [Promptfoo](https://github.com/promptfoo/promptfoo)
   * Automated LLM evaluations, report generations, several ready-to-use attack strategies
-* [PyRIT](https://github.com/Azure/PyRIT)  
+* [PyRIT by Microsoft](https://github.com/Azure/PyRIT)
   * Microsoft’s Python-based tool for AI red teaming and security testing
 * [Socketteer](https://github.com/socketteer?tab=repositories)
   * Allows AI models to interact, helping test conversational weaknesses
@@ -194,10 +198,14 @@ Help contribute by opening a pull request to add more resources and tools!
   * dataset created by NVIDIA to aid in content moderation and toxicity detection
 * [badwords by Richard Hughes](https://github.com/hughsie/badwords)
   * simple list of bad words in different locales that can be used to flag suspicious user-submitted content
+* [PKU-SafeRLHF dataset](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF)
+  * prompts with RLHF markers for unsafe responses across multiple harm categories
 * [Toxic Chat by LMSYS](https://huggingface.co/datasets/lmsys/toxic-chat)
   * dataset of toxic conversations collected from interactions with Vicuna
 * [Toxicity by Jigsaw](https://huggingface.co/datasets/google/jigsaw_toxicity_pred)
   * large number of Wikipedia comments which have been labeled by human raters for toxic behavior
+* [Transphobia Awareness dataset](https://doi.org/10.5281/zenodo.15482694)
+  * user-generated queries related to transphobia with human annotations and model responses from Quora questions
 * [Uli Dataset by Tattle](https://github.com/tattle-made/uli_dataset)
   * dataset of gendered abuse, created for Uli ML redaction.
 * [VTC by Unitary AI](https://github.com/unitaryai/VTC)
@@ -208,22 +216,54 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [AI Alignment Dataset by Anthropic](https://atlas.nomic.ai/map/anthropic_rlhf)  
   * data used for reinforcement learning with human feedback (RLHF) to align AI models.
+* [AILuminate dataset by MLCommons](https://github.com/mlcommons/ailuminate)
+  * Human-created prompts across different harm categories
+* [Aya Red-teaming dataset by Cohere](https://huggingface.co/datasets/CohereForAI/aya_redteaming)
+  * multilingual red-teaming prompts across various harm categories
+* [ALERT dataset by Babelscape](https://huggingface.co/datasets/Babelscape/ALERT)
+  * standard and adversarial red-teaming prompts
+* [CCP Sensitive Prompts by Promptfoo](https://huggingface.co/datasets/promptfoo/CCP-sensitive-prompts)
+  * Prompts covering topics sensitive to the Chinese Communist Party (CCP)
+* [DarkBench by Apart](https://huggingface.co/datasets/apart/darkbench)
+  * Comprehensive benchmark to detect dark design patterns in LLMs
 * [DEFCOM Red Teaming Dataset](https://github.com/humane-intelligence/ai_village_defcon_grt_data)  
   * dataset from DEF CON’s AI red teaming event.
+* [Do Not Answer dataset](https://huggingface.co/datasets/LibrAI/do-not-answer)
+  * Questions across multiple risk areas and harm types to test LLM safety and refusal behavior
+* [Forbidden Questions dataset](https://huggingface.co/datasets/TrustAIRLab/forbidden_question_set)
+  * Questions adopted from OpenAI Usage Policy
 * [HackAPrompt Jailbreak Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset/viewer/default/train?p=1&row=137)  
   * dataset for testing AI vulnerability to prompt-based jailbreaking
+* [HarmBench by Center for AI Safety](https://github.com/centerforaisafety/HarmBench)
+  * Evaluation dataset for automated red teaming
 * [HiroKachi Jailbreak Dataset](https://sizu.me/love)  
   * dataset focused on adversarial AI prompt attacks
 * [Jailbreak Prompt Generator AI Model](https://huggingface.co/tsq2000/Jailbreak-generator)  
   * AI model that generates jailbreak-style prompts
+* [JailbreakBench](https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors)
+  * Harmful behaviors for jailbreaking evaluation
 * [JailbreakHub by WalledAI](https://huggingface.co/datasets/walledai/JailbreakHub)
   * collection of jailbreak prompts and corresponding model responses
+* [LLM-LAT harmful dataset](https://huggingface.co/datasets/LLM-LAT/harmful-dataset)
+  * Prompts to assess harmful behaviors in LLMs
+* [MedSafetyBench](https://github.com/AI4LIFE-GROUP/med-safety-bench)
+  * Medical safety prompts to evaluate LLM safety in medical contexts
+* [Multilingual Vulnerability dataset](https://github.com/CarsonDon/Multilingual-Vuln-LLMs)
+  * Multilingual prompts demonstrating LLM vulnerabilities
 * [Red Team Resistance Leaderboard](https://huggingface.co/spaces/HaizeLabs/red-teaming-resistance-benchmark)  
   * rankings of AI models based on resistance to adversarial attacks
 * [Rentry Jailbreak Datasets](https://rentry.org/gpt0721)  
   * collection of datasets related to jailbreak attempts on AI models
 * [SidFeel Jailbreak Dataset](https://github.com/sidfeels/PromptsDB)  
   * collection of prompts used for jailbreaking AI models
+* [SorryBench](https://huggingface.co/datasets/sorry-bench/sorry-bench-202503)
+  * adversarial prompts to test LLM safety with linguistic mutations
+* [SOSBench](https://huggingface.co/datasets/SOSBench/SOSBench)
+  * regulation-grounded, hazard-focused benchmark encompassing six high-risk scientific domains: chemistry, biology, medicine, pharmacology, physics, and psychology. The benchmark comprises 3,000 prompts derived from real-world regulations and laws.
+* [TDC23-RedTeaming dataset by walledai](https://huggingface.co/datasets/walledai/TDC23-RedTeaming)
+  * collection of prompts from the red teaming track at TDC23
+* [XSTest dataset](https://github.com/paul-rottger/exaggerated-safety)
+  * Prompts designed to test exaggerated safety behaviors in LLMs
  
 
 ## Decentralized Platforms
