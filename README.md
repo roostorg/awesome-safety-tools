@@ -35,6 +35,10 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Classification
 
+* [Content Safety API by Google](https://protectingchildren.google/tools-for-partners/#learn-about-our-tools)
+  * uses machine learning to detect novel CSAM, nudity, and sexually explicit content in images and videos
+  * free service, but requires registration
+  * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/SIGNALS.html#content-safety-api-by-google), which is open source
 * [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-a-9b)
   * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
