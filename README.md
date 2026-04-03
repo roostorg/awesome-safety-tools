@@ -157,6 +157,8 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [BullMQ](https://github.com/taskforcesh/bullmq)
   * message queue and batch processing for NodeJS and Python based on Redis
+* [Content Review Filters by Meta](https://github.com/facebook/content-review-filters)
+  * collection of React components to integrate content filters in review tools
 * [NCMEC Reporting by ello](https://github.com/ello/ncmec_reporting)
   * Ruby client library for reporting incidents to the National Center for Missing & Exploited Children (NCMEC) CyberTipline
 * [Owlculus](https://github.com/be0vlk/owlculus)
