@@ -149,6 +149,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
   * library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
+* [SQRL](https://github.com/sqrl-lang/sqrl)
+  * Smyte Query and Rules Language: a safe, stateful language for event streams
 * [Wikimedia Smite Spam](https://github.com/wikimedia/mediawiki-extensions-SmiteSpam)
   * extension for MediaWiki that helps identify and manage spam content on a wiki
 
