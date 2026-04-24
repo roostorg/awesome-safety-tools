@@ -10,7 +10,7 @@ Help contribute by opening a pull request to add more resources and tools!
 ## Hash Matching
 
 * [Altitude by Jigsaw](https://github.com/jigsaw-code/altitude)
-  * web UI and hash matching for violent extremism and terrorism content
+  * web UI and hash matching for violent extremism and terrorism conten
 * [Hasher Matcher Action (HMA) by Meta](https://github.com/facebook/ThreatExchange/tree/main/hasher-matcher-actioner)
   * hashing algorithm, matching function, and ability to hook into actions
 * [Hasher-Matcher-Actioner (CLIP demo)](https://github.com/juanmrad/HMA-CLIP-demo)
@@ -59,6 +59,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * machine learning model that detects and moderates harmful content in real-time voice chat on Roblox; focuses on spoken language detection
 * [Sentinel by Roblox](https://github.com/Roblox/Sentinel/tree/main)
   * Python library designed specifically for realtime detection of extremely rare classes of text by using contrastive learning principles
+* [SENTINEL by Sentinel Foundation](https://github.com/sentinel-safety/SENTINEL)
+  * open-source behavioral intelligence platform for detecting child grooming on digital platforms; watches conversation escalation, relationship patterns, and temporal dynamics across sessions (not keyword-based); includes compliance infrastructure for EU DSA, UK Online Safety Act, and COPPA; explainable outputs, demographic parity enforcement, and privacy-preserving federation
 * [Toxic Prompt RoBERTa by Intel](https://huggingface.co/Intel/toxic-prompt-roberta)
   * BERT-based model for detecting toxic content in prompts to language models
 
