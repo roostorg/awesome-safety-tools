@@ -190,7 +190,7 @@ Help contribute by opening a pull request to add more resources and tools!
 * [ThreatExchange via Python](https://github.com/facebook/ThreatExchange/tree/main/python-threatexchange)
   * Python library for ThreatExchange
 * [TikTok Observatory](https://github.com/aiforensics/tkobservatory)
-  * open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok reccomendation algorithm
+  * open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok recommendation algorithm
 
 
 ## Datasets
