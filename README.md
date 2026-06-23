@@ -43,16 +43,23 @@ Help contribute by opening a pull request to add more resources and tools!
   * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
+* [Edge by NOPE](https://huggingface.co/nopenet/nope-edge)
+  * fine-tuned open-weights classifier (Qwen3) detecting nine mental-health-crisis and safety risk types, with chain-of-thought reasoning
 * [gpt-oss-safeguard by OpenAI](https://github.com/openai/gpt-oss-safeguard)
   * open-weight reasoning model to classify text content based on provided safety policies
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
   * convoluted neural network (CNN) based explicit image ML model
 * [NSFW Filtering](https://github.com/nsfw-filter/nsfw-filter)
   * browser extension to block explicit images from online platforms; user facing
+* [Ocular by NOPE](https://ocular-oss.nope.net)
+  * behavioral embedding classifier for fine-grained safety signals (depression, loneliness, AI-manipulation patterns) in human-AI conversations
+  * container at ghcr.io/nope-net/ocular-oss
 * [OSmod by Jigsaw](https://github.com/conversationai/conversationai-moderator)
   * toolkit of machine learning (ML) tools, models, and APIs that platforms can use to moderate content
 * [Perspective API by Jigsaw](https://github.com/conversationai/perspectiveapi)
   * machine learning-powered tool that helps platforms detect and assess the toxicity of online conversations
+* [Predicate by NOPE](https://huggingface.co/nopenet/predicate-oss)
+  * criterion-conditional classifier (Granite + LoRA) that scores text against developer-defined criteria, tuned and evaluated on safety datasets
 * [Private Detector by Bumble](https://github.com/bumble-tech/private-detector)
   * pretrained model for detecting lewd images
 * [Roblox Voice Safety Classifier](https://github.com/Roblox/voice-safety-classifier)
@@ -75,6 +82,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * AI-powered content moderation model to detect harm in text-based interactions
 * [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
   * Detects prompt injection and jailbreaking attacks in LLM inputs
+* [NOPE Crisis Screen](https://github.com/nope-net/guardrails-validator)
+  * Guardrails AI validator detecting mental health crisis signals (suicide, self-harm, abuse) in chat and LLM conversations
 * [OpenGuardrails](https://github.com/openguardrails/openguardrails)
   * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
@@ -251,6 +260,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * Medical safety prompts to evaluate LLM safety in medical contexts
 * [Multilingual Vulnerability dataset](https://github.com/CarsonDon/Multilingual-Vuln-LLMs)
   * Multilingual prompts demonstrating LLM vulnerabilities
+* [NOPE Evals](https://github.com/nope-net/nope-evals-configs)
+  * open blueprint library benchmarking how public conversational models behave in relational, emotional, and crisis contexts
 * [Red Team Resistance Leaderboard](https://huggingface.co/spaces/HaizeLabs/red-teaming-resistance-benchmark)  
   * rankings of AI models based on resistance to adversarial attacks
 * [Rentry Jailbreak Datasets](https://rentry.org/gpt0721)  
