@@ -85,6 +85,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
 * [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
   * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
+* [Future AGI Protect](https://github.com/future-agi/future-agi)
+  * Open-source multimodal guardrails detecting prompt injection, jailbreak, PII, and toxicity across text, image, and audio
 
 
 
