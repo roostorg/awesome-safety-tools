@@ -291,4 +291,9 @@ Help contribute by opening a pull request to add more resources and tools!
   * tool to help people who are being harassed online by having their friends (or “squad”) moderate their messages
 * [Uli by Tattle](https://github.com/tattle-made/Uli)
   * Software and Resources for Mitigating Online Gender Based Violence in India
+ 
+## General Utilities
+
+* [DateCalx](https://datecalx.com)
+  * free online date, age, business day, countdown, calendar, and time calculation tools useful for scheduling, compliance deadlines, incident timelines, investigations, and project planning
 
