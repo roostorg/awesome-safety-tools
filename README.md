@@ -283,6 +283,8 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## User Safety Tools
 
+* [MindDividend Shield](https://alphaengineerai.com/global-online-scam-checker.html)
+  * free multilingual first-pass education for suspicious messages, links, and payment requests, with privacy-first redaction guidance and official reporting routes; not a guarantee, official investigation, or substitute for contacting the relevant platform, bank, or authorities
 * [Frankly by Applied Social Media Lab](https://github.com/berkmancenter/frankly/)
   * online deliberations platform that allows anyone to host video-enabled conversations about any topic
 * [PolicyKit by UW Social Futures Lab](https://github.com/policykit/policykit)
