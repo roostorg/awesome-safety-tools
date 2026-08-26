@@ -25,7 +25,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * perceptual hash algorithm for images
 * [Perception by Thorn](https://github.com/thorn-oss/perception)
   * provides a common wrapper around existing, popular perceptual hashes (such as those implemented by ImageHash)
-* [RocketChat CSAM](https://github.com/prostasia/rocketchatcsam)
+* [RocketChat CSAM](https://github.com/c4osl/rocketchatcsam)
   * CSAM hash matching for RocketChat
 * [TMK by Meta](https://github.com/facebook/ThreatExchange/tree/main/tmk)
   * visual similarity match for videos
@@ -39,7 +39,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * uses machine learning to detect novel CSAM, nudity, and sexually explicit content in images and videos
   * free service, but requires registration
   * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/SIGNALS.html#content-safety-api-by-google), which is open source
-* [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-a-9b)
+* [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-b-a4b)
   * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
@@ -88,11 +88,11 @@ Help contribute by opening a pull request to add more resources and tools!
   * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
-* [RoGuard](https://github.com/Roblox/RoGuard-1.0)
+* [RoGuard](https://github.com/Roblox/RobloxGuard-1.0)
   * LLM that helps safeguard unlimited text generation on Roblox
 * [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
-* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
+* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/ai-atlas-nexus)
   * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
 
 
@@ -102,7 +102,7 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
   * Code and binaries to confuse AIs when trying to match identity to photos, such as [Clearview](https://www.theverge.com/23919134/kashmir-hill-your-face-belongs-to-us-clearview-ai-facial-recognition-privacy-decoder)
   * Many other great tools at github.com/Shawn-Shan, MIT researcher
-* [Presidio by Microsoft](https://github.com/microsoft/presidio)
+* [Presidio by Microsoft](https://github.com/data-privacy-stack/presidio)
   * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 
 
@@ -132,7 +132,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * Tool for testing prompt injection vulnerabilities in AI systems
 * [Promptfoo](https://github.com/promptfoo/promptfoo)
   * Automated LLM evaluations, report generations, several ready-to-use attack strategies
-* [PyRIT by Microsoft](https://github.com/Azure/PyRIT)
+* [PyRIT by Microsoft](https://github.com/microsoft/PyRIT)
   * Microsoft’s Python-based tool for AI red teaming and security testing
 * [Socketteer](https://github.com/socketteer?tab=repositories)
   * Allows AI models to interact, helping test conversational weaknesses
@@ -228,7 +228,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * data used for reinforcement learning with human feedback (RLHF) to align AI models.
 * [AILuminate dataset by MLCommons](https://github.com/mlcommons/ailuminate)
   * Human-created prompts across different harm categories
-* [Aya Red-teaming dataset by Cohere](https://huggingface.co/datasets/CohereForAI/aya_redteaming)
+* [Aya Red-teaming dataset by Cohere](https://huggingface.co/datasets/CohereLabs/aya_redteaming)
   * multilingual red-teaming prompts across various harm categories
 * [ALERT dataset by Babelscape](https://huggingface.co/datasets/Babelscape/ALERT)
   * standard and adversarial red-teaming prompts
@@ -242,12 +242,10 @@ Help contribute by opening a pull request to add more resources and tools!
   * Questions across multiple risk areas and harm types to test LLM safety and refusal behavior
 * [Forbidden Questions dataset](https://huggingface.co/datasets/TrustAIRLab/forbidden_question_set)
   * Questions adopted from OpenAI Usage Policy
-* [HackAPrompt Jailbreak Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset/viewer/default/train?p=1&row=137)  
+* [HackAPrompt Jailbreak Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset)
   * dataset for testing AI vulnerability to prompt-based jailbreaking
 * [HarmBench by Center for AI Safety](https://github.com/centerforaisafety/HarmBench)
   * Evaluation dataset for automated red teaming
-* [HiroKachi Jailbreak Dataset](https://sizu.me/love)  
-  * dataset focused on adversarial AI prompt attacks
 * [Jailbreak Prompt Generator AI Model](https://huggingface.co/tsq2000/Jailbreak-generator)  
   * AI model that generates jailbreak-style prompts
 * [JailbreakBench](https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors)
@@ -260,9 +258,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * Medical safety prompts to evaluate LLM safety in medical contexts
 * [Multilingual Vulnerability dataset](https://github.com/CarsonDon/Multilingual-Vuln-LLMs)
   * Multilingual prompts demonstrating LLM vulnerabilities
-* [NOPE Evals](https://github.com/nope-net/nope-evals-configs)
-  * open blueprint library benchmarking how public conversational models behave in relational, emotional, and crisis contexts
-* [Red Team Resistance Leaderboard](https://huggingface.co/spaces/HaizeLabs/red-teaming-resistance-benchmark)  
+* [Red Team Resistance Leaderboard](https://github.com/haizelabs/redteaming-resistance-benchmark)
   * rankings of AI models based on resistance to adversarial attacks
 * [Rentry Jailbreak Datasets](https://rentry.org/gpt0721)  
   * collection of datasets related to jailbreak attempts on AI models
@@ -274,7 +270,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * regulation-grounded, hazard-focused benchmark encompassing six high-risk scientific domains: chemistry, biology, medicine, pharmacology, physics, and psychology. The benchmark comprises 3,000 prompts derived from real-world regulations and laws.
 * [TDC23-RedTeaming dataset by walledai](https://huggingface.co/datasets/walledai/TDC23-RedTeaming)
   * collection of prompts from the red teaming track at TDC23
-* [XSTest dataset](https://github.com/paul-rottger/exaggerated-safety)
+* [XSTest dataset](https://github.com/paul-rottger/xstest)
   * Prompts designed to test exaggerated safety behaviors in LLMs
  
 
@@ -282,7 +278,7 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [Automod by Bluesky](https://github.com/bluesky-social/indigo/tree/main/automod)
   * tool for automating content moderation processes for the Bluesky social network and other apps on the AT Protocol
-* [FediCheck](https://connect.iftas.org/library/iftas-documentation/fedicheck/)
+* [FediCheck](https://about.iftas.org/trust-safety-services/iftas-community-library/)
   * domain moderation tool to assist ActivityPub service providers, such as Mastodon servers, now open-sourced.
 * [Fediverse Spam Filtering](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
   * spam filter for Fediverse social media platforms. For now, the current version is only a proof of concept.
@@ -302,4 +298,9 @@ Help contribute by opening a pull request to add more resources and tools!
   * tool to help people who are being harassed online by having their friends (or “squad”) moderate their messages
 * [Uli by Tattle](https://github.com/tattle-made/Uli)
   * Software and Resources for Mitigating Online Gender Based Violence in India
+ 
+ ## Research Infrastructure
+- [CaseLinker](https://github.com/mrinaalr/CaseLinker)
+  * open-source system for cross-case analysis of Internet Crimes Against Children (ICAC) reports and public case records; aggregates, structures, analyzes, and visualizes statistical and contextual information from CSEA cases for research and prevention.
+
 
