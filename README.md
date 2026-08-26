@@ -39,12 +39,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * uses machine learning to detect novel CSAM, nudity, and sexually explicit content in images and videos
   * free service, but requires registration
   * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/SIGNALS.html#content-safety-api-by-google), which is open source
-* [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-a-9b)
-  * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
-* [gpt-oss-safeguard by OpenAI](https://github.com/openai/gpt-oss-safeguard)
-  * open-weight reasoning model to classify text content based on provided safety policies
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
   * convoluted neural network (CNN) based explicit image ML model
 * [NSFW Filtering](https://github.com/nsfw-filter/nsfw-filter)
@@ -55,15 +51,18 @@ Help contribute by opening a pull request to add more resources and tools!
   * machine learning-powered tool that helps platforms detect and assess the toxicity of online conversations
 * [Private Detector by Bumble](https://github.com/bumble-tech/private-detector)
   * pretrained model for detecting lewd images
-* [Roblox Voice Safety Classifier](https://github.com/Roblox/voice-safety-classifier)
+* [Roblox Voice Safety Classifier](https://github.com/roostorg/model-community/tree/main/roblox-voice-safety-classifier)
   * machine learning model that detects and moderates harmful content in real-time voice chat on Roblox; focuses on spoken language detection
-* [Sentinel by Roblox](https://github.com/Roblox/Sentinel/tree/main)
+* [Sentinel by Roblox](https://github.com/roostorg/model-community/tree/main/roblox-sentinel)
   * Python library designed specifically for realtime detection of extremely rare classes of text by using contrastive learning principles
+* [Suicide Prevention Guardrail by Mila](https://github.com/roostorg/model-community/tree/main/mila)
+  * BERT-model for detecting chatbot responses that assist in suicidal ideation
 * [Toxic Prompt RoBERTa by Intel](https://huggingface.co/Intel/toxic-prompt-roberta)
   * BERT-based model for detecting toxic content in prompts to language models
 
 
 ## AI for Safety
+
 
 * [Guardrails AI](https://github.com/guardrails-ai/guardrails)
   * Python framework that helps build safe AI applications checking input/output for predefined risks
@@ -79,13 +78,21 @@ Help contribute by opening a pull request to add more resources and tools!
   * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
+* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
+  * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
 * [RoGuard](https://github.com/Roblox/RoGuard-1.0)
   * LLM that helps safeguard unlimited text generation on Roblox
 * [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
-* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
-  * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
 
+
+### Bring-Your-Own-Policy Models for Safety
+* [CoPE-B by Zentropi](https://github.com/roostorg/model-community/tree/main/cope-b)
+  * 25.2B (3.8 active) parameter model for accurate, fast, steerable text classification based on your own content policies
+* [gpt-oss-safeguard by OpenAI](https://github.com/roostorg/model-community/tree/main/gpt-oss-safeguard)
+  * 20b (3.6 active) and 120b (5.1b active) reasoning models for classifying text content given a policy
+* [Shieldstral by Mistral](https://github.com/roostorg/model-community/tree/main/shieldstral)
+  * 3b parameter model for text and image classification 
 
 
 ## Privacy Protection
@@ -93,8 +100,11 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
   * Code and binaries to confuse AIs when trying to match identity to photos, such as [Clearview](https://www.theverge.com/23919134/kashmir-hill-your-face-belongs-to-us-clearview-ai-facial-recognition-privacy-decoder)
   * Many other great tools at github.com/Shawn-Shan, MIT researcher
+* [PII Classifier by Roblox](https://github.com/roostorg/model-community/tree/main/roblox-pii-classifier)
+  * classification model that can be used for identifying attempts to share or solicit personally identifiable information in text
 * [Presidio by Microsoft](https://github.com/microsoft/presidio)
   * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
+
 
 
 ## Core Infrastructure
@@ -141,12 +151,11 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Rules Engines
 
-* [Druid by Apache](https://github.com/apache/druid)
   * high performance real-time analytics database
 * [Marble](https://github.com/checkmarble/marble)
   * real-time fraud detection and compliance engine tailored for fintech companies and financial institutions
 * [Osprey by ROOST](https://github.com/roostorg/osprey)
-  * high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work
+  * high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work* [Druid by Apache](https://github.com/apache/druid)
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
   * library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
 * [SQRL (Smyte Query and Rules Language)](https://github.com/sqrl-lang/sqrl)
@@ -159,6 +168,8 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [BullMQ](https://github.com/taskforcesh/bullmq)
   * message queue and batch processing for NodeJS and Python based on Redis
+* [Coop](https://github.com/roostorg/coop)
+  * scalable review tool for manual / automated review and actions, with built-in hash matching and NCMEC reporting
 * [Content Review Filters by Meta](https://github.com/facebook/content-review-filters)
   * collection of React components to integrate content filters in review tools
 * [NCMEC Reporting by ello](https://github.com/ello/ncmec_reporting)
@@ -189,8 +200,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * PHP client for ThreatExchange
 * [ThreatExchange via Python](https://github.com/facebook/ThreatExchange/tree/main/python-threatexchange)
   * Python library for ThreatExchange
-* [TikTok Observatory](https://github.com/aiforensics/tkobservatory)
-  * open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok reccomendation algorithm
+
 
 
 ## Datasets
@@ -279,6 +289,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * reference server + protocol for the exchange of moderation adivsories and recommendations
 * [Ozone by Bluesky](https://github.com/bluesky-social/ozone)
   * labeling tool designed for Bluesky. Includes moderation features to action on abuse flags, policy enforcement tools, and investigation features
+* [Troposphere](https://github.com/julietshen/troposphere)
+  * AT protocol plumbing to make [Coop](https://github.com/roostorg/coop) a viable Ozone replacement
 
 
 ## User Safety Tools
@@ -297,3 +309,6 @@ Help contribute by opening a pull request to add more resources and tools!
   * open-source system for cross-case analysis of Internet Crimes Against Children (ICAC) reports and public case records; aggregates, structures, analyzes, and visualizes statistical and contextual information from CSEA cases for research and prevention.
 
 
+## For Researchers
+* [TikTok Observatory](https://github.com/aiforensics/tkobservatory)
+  * open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok reccomendation algorithm
