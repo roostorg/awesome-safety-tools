@@ -25,7 +25,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * perceptual hash algorithm for images
 * [Perception by Thorn](https://github.com/thorn-oss/perception)
   * provides a common wrapper around existing, popular perceptual hashes (such as those implemented by ImageHash)
-* [RocketChat CSAM](https://github.com/prostasia/rocketchatcsam)
+* [RocketChat CSAM](https://github.com/c4osl/rocketchatcsam)
   * CSAM hash matching for RocketChat
 * [TMK by Meta](https://github.com/facebook/ThreatExchange/tree/main/tmk)
   * visual similarity match for videos
@@ -79,11 +79,11 @@ Help contribute by opening a pull request to add more resources and tools!
   * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
-* [RoGuard](https://github.com/Roblox/RoGuard-1.0)
+* [RoGuard](https://github.com/Roblox/RobloxGuard-1.0)
   * LLM that helps safeguard unlimited text generation on Roblox
 * [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
-* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
+* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/ai-atlas-nexus)
   * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
 
 
@@ -93,7 +93,7 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
   * Code and binaries to confuse AIs when trying to match identity to photos, such as [Clearview](https://www.theverge.com/23919134/kashmir-hill-your-face-belongs-to-us-clearview-ai-facial-recognition-privacy-decoder)
   * Many other great tools at github.com/Shawn-Shan, MIT researcher
-* [Presidio by Microsoft](https://github.com/microsoft/presidio)
+* [Presidio by Microsoft](https://github.com/data-privacy-stack/presidio)
   * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 
 
@@ -219,7 +219,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * data used for reinforcement learning with human feedback (RLHF) to align AI models.
 * [AILuminate dataset by MLCommons](https://github.com/mlcommons/ailuminate)
   * Human-created prompts across different harm categories
-* [Aya Red-teaming dataset by Cohere](https://huggingface.co/datasets/CohereForAI/aya_redteaming)
+* [Aya Red-teaming dataset by Cohere](https://huggingface.co/datasets/CohereLabs/aya_redteaming)
   * multilingual red-teaming prompts across various harm categories
 * [ALERT dataset by Babelscape](https://huggingface.co/datasets/Babelscape/ALERT)
   * standard and adversarial red-teaming prompts
@@ -263,7 +263,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * regulation-grounded, hazard-focused benchmark encompassing six high-risk scientific domains: chemistry, biology, medicine, pharmacology, physics, and psychology. The benchmark comprises 3,000 prompts derived from real-world regulations and laws.
 * [TDC23-RedTeaming dataset by walledai](https://huggingface.co/datasets/walledai/TDC23-RedTeaming)
   * collection of prompts from the red teaming track at TDC23
-* [XSTest dataset](https://github.com/paul-rottger/exaggerated-safety)
+* [XSTest dataset](https://github.com/paul-rottger/xstest)
   * Prompts designed to test exaggerated safety behaviors in LLMs
  
 
@@ -271,7 +271,7 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [Automod by Bluesky](https://github.com/bluesky-social/indigo/tree/main/automod)
   * tool for automating content moderation processes for the Bluesky social network and other apps on the AT Protocol
-* [FediCheck](https://connect.iftas.org/library/iftas-documentation/fedicheck/)
+* [FediCheck](https://about.iftas.org/trust-safety-services/iftas-community-library/)
   * domain moderation tool to assist ActivityPub service providers, such as Mastodon servers, now open-sourced.
 * [Fediverse Spam Filtering](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
   * spam filter for Fediverse social media platforms. For now, the current version is only a proof of concept.
