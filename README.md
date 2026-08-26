@@ -38,7 +38,7 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Content Safety API by Google](https://protectingchildren.google/tools-for-partners/#learn-about-our-tools)
   * uses machine learning to detect novel CSAM, nudity, and sexually explicit content in images and videos
   * free service, but requires registration
-  * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/SIGNALS.html#content-safety-api-by-google), which is open source
+  * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/latest/integrations/google-content-safety.html), which is open source
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
