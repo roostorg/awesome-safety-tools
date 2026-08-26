@@ -41,8 +41,6 @@ Help contribute by opening a pull request to add more resources and tools!
   * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/SIGNALS.html#content-safety-api-by-google), which is open source
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
-* [gpt-oss-safeguard by OpenAI](https://github.com/openai/gpt-oss-safeguard)
-  * open-weight reasoning model to classify text content based on provided safety policies
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
   * convoluted neural network (CNN) based explicit image ML model
 * [NSFW Filtering](https://github.com/nsfw-filter/nsfw-filter)
@@ -57,10 +55,10 @@ Help contribute by opening a pull request to add more resources and tools!
   * machine learning model that detects and moderates harmful content in real-time voice chat on Roblox; focuses on spoken language detection
 * [Sentinel by Roblox](https://github.com/roostorg/model-community/tree/main/roblox-sentinel)
   * Python library designed specifically for realtime detection of extremely rare classes of text by using contrastive learning principles
-* [Toxic Prompt RoBERTa by Intel](https://huggingface.co/Intel/toxic-prompt-roberta)
-  * BERT-based model for detecting toxic content in prompts to language models
 * [Suicide Prevention Guardrail by Mila](https://github.com/roostorg/model-community/tree/main/mila)
   * BERT-model for detecting chatbot responses that assist in suicidal ideation
+* [Toxic Prompt RoBERTa by Intel](https://huggingface.co/Intel/toxic-prompt-roberta)
+  * BERT-based model for detecting toxic content in prompts to language models
 
 
 ## AI for Safety
@@ -80,19 +78,19 @@ Help contribute by opening a pull request to add more resources and tools!
   * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
   * set of tools to assess and improve LLM security. Includes Llama Guard, CyberSec Eval, and Code Shield
+* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
+  * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
 * [RoGuard](https://github.com/Roblox/RoGuard-1.0)
   * LLM that helps safeguard unlimited text generation on Roblox
 * [ShieldGemma by Google DeepMind](https://www.kaggle.com/code/fernandosr85/shieldgemma-web-content-safety-analyzer?scriptVersionId=198456916)
   * AI safety toolkit by Google DeepMind designed to help detect and mitigate harmful or unsafe outputs in LLM applications
-* [Risk Atlas Nexus by IBM Research](https://github.com/IBM/risk-atlas-nexus)
-  * knowledge-graph toolkit that maps AI risk taxonomies (IBM AI Risk Atlas, IBM Granite Guardian MIT AI Risk Repository, NIST AI RMF GenAI Profile, AIR 2024, AILuminate Benchmark, Credo Unified Control Framework, OWASP Top 10 for LLM Apps) to evaluations, mitigations and controls, supporting the generation of structured governance workflows
 
 
 ### Bring-Your-Own-Policy Models for Safety
-* [gpt-oss-safeguard by OpenAI](https://github.com/roostorg/model-community/tree/main/gpt-oss-safeguard)
-  * 20b (3.6 active) and 120b (5.1b active) reasoning models for classifying text content given a policy
 * [CoPE-B by Zentropi](https://github.com/roostorg/model-community/tree/main/cope-b)
   * 25.2B (3.8 active) parameter model for accurate, fast, steerable text classification based on your own content policies
+* [gpt-oss-safeguard by OpenAI](https://github.com/roostorg/model-community/tree/main/gpt-oss-safeguard)
+  * 20b (3.6 active) and 120b (5.1b active) reasoning models for classifying text content given a policy
 * [Shieldstral by Mistral](https://github.com/roostorg/model-community/tree/main/shieldstral)
   * 3b parameter model for text and image classification 
 
@@ -102,10 +100,10 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
   * Code and binaries to confuse AIs when trying to match identity to photos, such as [Clearview](https://www.theverge.com/23919134/kashmir-hill-your-face-belongs-to-us-clearview-ai-facial-recognition-privacy-decoder)
   * Many other great tools at github.com/Shawn-Shan, MIT researcher
-* [Presidio by Microsoft](https://github.com/microsoft/presidio)
-  * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 * [PII Classifier by Roblox](https://github.com/roostorg/model-community/tree/main/roblox-pii-classifier)
   * classification model that can be used for identifying attempts to share or solicit personally identifiable information in text
+* [Presidio by Microsoft](https://github.com/microsoft/presidio)
+  * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 
 
 
@@ -153,11 +151,11 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Rules Engines
 
-* [Osprey by ROOST](https://github.com/roostorg/osprey)
-  * high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work* [Druid by Apache](https://github.com/apache/druid)
   * high performance real-time analytics database
 * [Marble](https://github.com/checkmarble/marble)
   * real-time fraud detection and compliance engine tailored for fintech companies and financial institutions
+* [Osprey by ROOST](https://github.com/roostorg/osprey)
+  * high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work* [Druid by Apache](https://github.com/apache/druid)
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
   * library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
 * [SQRL (Smyte Query and Rules Language)](https://github.com/sqrl-lang/sqrl)
@@ -168,10 +166,10 @@ Help contribute by opening a pull request to add more resources and tools!
 
 ## Review
 
-* [Coop](https://github.com/roostorg/coop)
-  * scalable review tool for manual / automated review and actions, with built-in hash matching and NCMEC reporting
 * [BullMQ](https://github.com/taskforcesh/bullmq)
   * message queue and batch processing for NodeJS and Python based on Redis
+* [Coop](https://github.com/roostorg/coop)
+  * scalable review tool for manual / automated review and actions, with built-in hash matching and NCMEC reporting
 * [Content Review Filters by Meta](https://github.com/facebook/content-review-filters)
   * collection of React components to integrate content filters in review tools
 * [NCMEC Reporting by ello](https://github.com/ello/ncmec_reporting)
