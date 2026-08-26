@@ -305,10 +305,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * Software and Resources for Mitigating Online Gender Based Violence in India
  
  ## Research Infrastructure
-- [CaseLinker](https://github.com/mrinaalr/CaseLinker)
+* [CaseLinker](https://github.com/mrinaalr/CaseLinker)
   * open-source system for cross-case analysis of Internet Crimes Against Children (ICAC) reports and public case records; aggregates, structures, analyzes, and visualizes statistical and contextual information from CSEA cases for research and prevention.
-
-
-## For Researchers
 * [TikTok Observatory](https://github.com/aiforensics/tkobservatory)
   * open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok reccomendation algorithm
