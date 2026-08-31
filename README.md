@@ -116,6 +116,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * moderation bot for the Matrix protocol that automatically enforces content policies
 * [Open Truss by GitHub](https://github.com/open-truss/open-truss)
   * framework designed to help users create internal tools without needing to write code
+* [prevalence-kit](https://github.com/MohdSaifHussain/prevalence-kit)
+  * command-line tool for measuring content prevalence from human-labeled samples, with sampling plans hashed before any data is read, sealed content, and a tamper-evident record that can be re-verified from the sealed run
  
 
 ## Redteaming Tools
