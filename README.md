@@ -102,6 +102,9 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Fawkes Facial De-Recognition Cloaking](https://github.com/Shawn-Shan/fawkes)
   * Code and binaries to confuse AIs when trying to match identity to photos, such as [Clearview](https://www.theverge.com/23919134/kashmir-hill-your-face-belongs-to-us-clearview-ai-facial-recognition-privacy-decoder)
   * Many other great tools at github.com/Shawn-Shan, MIT researcher
+* [OpenAI Privacy Filter](https://github.com/openai/privacy-filter)
+  * locally runnable, self-hosted model for high-throughput detection and masking of PII and secrets in text
+  * privacy redaction aid, not a Trust & Safety content moderator; it does not guarantee anonymization, compliance, or security
 * [Presidio by Microsoft](https://github.com/data-privacy-stack/presidio)
   * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 
