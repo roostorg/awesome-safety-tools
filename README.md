@@ -11,7 +11,7 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [Altitude by Jigsaw](https://github.com/jigsaw-code/altitude)
   * web UI and hash matching for violent extremism and terrorism content
-* [Hasher Matcher Action (HMA) by Meta](https://github.com/facebook/ThreatExchange/tree/main/hasher-matcher-actioner)
+* [Hasher Matcher Action (HMA) by Meta](https://github.com/meta/ThreatExchange/tree/main/hasher-matcher-actioner)
   * hashing algorithm, matching function, and ability to hook into actions
 * [Hasher-Matcher-Actioner (CLIP demo)](https://github.com/juanmrad/HMA-CLIP-demo)
   * HMA extension for CLIP as reference for adding other format extensions
@@ -21,15 +21,15 @@ Help contribute by opening a pull request to add more resources and tools!
   * grid and lattice detection to guard against FP in hash matching
 * [MediaModeration (Wiki Extension)](https://github.com/wikimedia/mediawiki-extensions-MediaModeration?tab=readme-ov-file)
   * CSAM hash matching for Wikimedia
-* [PDQ by Meta](https://github.com/facebook/ThreatExchange/tree/main/pdq)
+* [PDQ by Meta](https://github.com/meta/ThreatExchange/tree/main/pdq)
   * perceptual hash algorithm for images
 * [Perception by Thorn](https://github.com/thorn-oss/perception)
   * provides a common wrapper around existing, popular perceptual hashes (such as those implemented by ImageHash)
 * [RocketChat CSAM](https://github.com/c4osl/rocketchatcsam)
   * CSAM hash matching for RocketChat
-* [TMK by Meta](https://github.com/facebook/ThreatExchange/tree/main/tmk)
+* [TMK by Meta](https://github.com/meta/ThreatExchange/tree/main/tmk)
   * visual similarity match for videos
-* [VPDQ by Meta](https://github.com/facebook/ThreatExchange/tree/main/vpdq)
+* [VPDQ by Meta](https://github.com/meta/ThreatExchange/tree/main/vpdq)
   * visual similarity match for videos using PDQ algorithm
 
 
@@ -171,7 +171,7 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [BullMQ](https://github.com/taskforcesh/bullmq)
   * message queue and batch processing for NodeJS and Python based on Redis
-* [Content Review Filters by Meta](https://github.com/facebook/content-review-filters)
+* [Content Review Filters by Meta](https://github.com/meta/content-review-filters)
   * collection of React components to integrate content filters in review tools
 * [NCMEC Reporting by ello](https://github.com/ello/ncmec_reporting)
   * Ruby client library for reporting incidents to the National Center for Missing & Exploited Children (NCMEC) CyberTipline
@@ -195,11 +195,11 @@ Help contribute by opening a pull request to add more resources and tools!
   * interactive, open-source database that tracks allegations of foreign interference or foreign malign influence relevant to the 2024 U.S. presidential election
 * [OpenMeasures](https://gitlab.com/openmeasures)
   * open source platform for investigating internet trends
-* [ThreatExchange by Meta](https://github.com/facebook/ThreatExchange )
+* [ThreatExchange by Meta](https://github.com/meta/ThreatExchange)
   * platform that enables organizations to share information about  threats, such as malware, phishing attacks, and online safety harms in a structured and privacy-compliant manner
 * [ThreatExchange Client via PHP](https://github.com/certly/threatexchange)
   * PHP client for ThreatExchange
-* [ThreatExchange via Python](https://github.com/facebook/ThreatExchange/tree/main/python-threatexchange)
+* [ThreatExchange via Python](https://github.com/meta/ThreatExchange/tree/main/python-threatexchange)
   * Python library for ThreatExchange
 * [TikTok Observatory](https://github.com/aiforensics/tkobservatory)
   * open-source project maintained by [AI Forensics](https://aiforensics.org/) that allows researchers to monitor the promotion and demotion of content by the TikTok reccomendation algorithm
