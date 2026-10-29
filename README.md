@@ -213,6 +213,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * simple list of bad words in different locales that can be used to flag suspicious user-submitted content
 * [PKU-SafeRLHF dataset](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF)
   * prompts with RLHF markers for unsafe responses across multiple harm categories
+* [Scunthorpe Test by Unprofane](https://github.com/unprofane/scunthorpe-test)
+  * profanity-filter benchmark (CC BY 4.0 data, MIT code) that scores false positives on innocent words beside recall, with adapters for open-source filters
 * [Toxic Chat by LMSYS](https://huggingface.co/datasets/lmsys/toxic-chat)
   * dataset of toxic conversations collected from interactions with Vicuna
 * [Toxicity by Jigsaw](https://huggingface.co/datasets/google/jigsaw_toxicity_pred)
