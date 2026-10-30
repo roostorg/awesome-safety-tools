@@ -170,6 +170,7 @@ Help contribute by opening a pull request to add more resources and tools!
 ## Review
 
 * [BullMQ](https://github.com/taskforcesh/bullmq)
+* [BetterQueue](https://github.com/Saiop68/better-queue) - Distributed rate limiter and job queue for Node.js with Redis-backed state, cross-process priority and crash recovery.
   * message queue and batch processing for NodeJS and Python based on Redis
 * [Content Review Filters by Meta](https://github.com/meta/content-review-filters)
   * collection of React components to integrate content filters in review tools
