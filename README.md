@@ -54,6 +54,8 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Ocular by NOPE](https://ocular-oss.nope.net)
   * behavioral embedding classifier for fine-grained safety signals (depression, loneliness, AI-manipulation patterns) in human-AI conversations
   * container at ghcr.io/nope-net/ocular-oss
+* [openmod](https://github.com/regisandre/openmod-rs)
+  * self-hosted image and text moderation in one Rust binary, CPU only: SightEngine-style workflows, text in images (OCR) and QR codes; alpha
 * [OSmod by Jigsaw](https://github.com/conversationai/conversationai-moderator)
   * toolkit of machine learning (ML) tools, models, and APIs that platforms can use to moderate content
 * [Perspective API by Jigsaw](https://github.com/conversationai/perspectiveapi)
@@ -157,6 +159,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * high performance real-time analytics database
 * [Marble](https://github.com/checkmarble/marble)
   * real-time fraud detection and compliance engine tailored for fintech companies and financial institutions
+* [openfraud](https://github.com/regisandre/openfraud-rs)
+  * self-hosted fraud and abuse engine for SaaS in one Rust binary with embedded SQLite: events in, decisions out, rule packs that start in shadow mode; alpha
 * [Osprey by ROOST](https://github.com/roostorg/osprey)
   * high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
