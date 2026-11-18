@@ -11,7 +11,7 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [Altitude by Jigsaw](https://github.com/jigsaw-code/altitude)
   * web UI and hash matching for violent extremism and terrorism content
-* [Hasher Matcher Action (HMA) by Meta](https://github.com/facebook/ThreatExchange/tree/main/hasher-matcher-actioner)
+* [Hasher Matcher Action (HMA) by Meta](https://github.com/meta/ThreatExchange/tree/main/hasher-matcher-actioner)
   * hashing algorithm, matching function, and ability to hook into actions
 * [Hasher-Matcher-Actioner (CLIP demo)](https://github.com/juanmrad/HMA-CLIP-demo)
   * HMA extension for CLIP as reference for adding other format extensions
@@ -21,15 +21,15 @@ Help contribute by opening a pull request to add more resources and tools!
   * grid and lattice detection to guard against FP in hash matching
 * [MediaModeration (Wiki Extension)](https://github.com/wikimedia/mediawiki-extensions-MediaModeration?tab=readme-ov-file)
   * CSAM hash matching for Wikimedia
-* [PDQ by Meta](https://github.com/facebook/ThreatExchange/tree/main/pdq)
+* [PDQ by Meta](https://github.com/meta/ThreatExchange/tree/main/pdq)
   * perceptual hash algorithm for images
 * [Perception by Thorn](https://github.com/thorn-oss/perception)
   * provides a common wrapper around existing, popular perceptual hashes (such as those implemented by ImageHash)
-* [RocketChat CSAM](https://github.com/prostasia/rocketchatcsam)
+* [RocketChat CSAM](https://github.com/c4osl/rocketchatcsam)
   * CSAM hash matching for RocketChat
-* [TMK by Meta](https://github.com/facebook/ThreatExchange/tree/main/tmk)
+* [TMK by Meta](https://github.com/meta/ThreatExchange/tree/main/tmk)
   * visual similarity match for videos
-* [VPDQ by Meta](https://github.com/facebook/ThreatExchange/tree/main/vpdq)
+* [VPDQ by Meta](https://github.com/meta/ThreatExchange/tree/main/vpdq)
   * visual similarity match for videos using PDQ algorithm
 
 
@@ -38,17 +38,28 @@ Help contribute by opening a pull request to add more resources and tools!
 * [Content Safety API by Google](https://protectingchildren.google/tools-for-partners/#learn-about-our-tools)
   * uses machine learning to detect novel CSAM, nudity, and sexually explicit content in images and videos
   * free service, but requires registration
-  * not open source itself, but can be [used via Coop](https://roostorg.github.io/coop/latest/integrations/google-content-safety.html), which is open source
+  * not open source itself, but can be [used via Coop](https://docs.roost.tools/coop/latest/integrations/google-content-safety.html), which is open source
+* [CoPE by Zentropi](https://huggingface.co/zentropi-ai/cope-b-a4b)
+  * small language model trained for accurate, fast, steerable content classification based on developer-defined content policies
 * [Detoxify by Unitary AI](https://github.com/unitaryai/detoxify)
   * detects and mitigates generalized toxic language (including hate speech, harassment, bullying) in text
+* [Edge by NOPE](https://huggingface.co/nopenet/nope-edge)
+  * fine-tuned open-weights classifier (Qwen3) detecting nine mental-health-crisis and safety risk types, with chain-of-thought reasoning
+* [gpt-oss-safeguard by OpenAI](https://github.com/openai/gpt-oss-safeguard)
+  * open-weight reasoning model to classify text content based on provided safety policies
 * [NSFW Keras Model](https://github.com/GantMan/nsfw_model)
   * convoluted neural network (CNN) based explicit image ML model
 * [NSFW Filtering](https://github.com/nsfw-filter/nsfw-filter)
   * browser extension to block explicit images from online platforms; user facing
+* [Ocular by NOPE](https://ocular-oss.nope.net)
+  * behavioral embedding classifier for fine-grained safety signals (depression, loneliness, AI-manipulation patterns) in human-AI conversations
+  * container at ghcr.io/nope-net/ocular-oss
 * [OSmod by Jigsaw](https://github.com/conversationai/conversationai-moderator)
   * toolkit of machine learning (ML) tools, models, and APIs that platforms can use to moderate content
 * [Perspective API by Jigsaw](https://github.com/conversationai/perspectiveapi)
   * machine learning-powered tool that helps platforms detect and assess the toxicity of online conversations
+* [Predicate by NOPE](https://huggingface.co/nopenet/predicate-oss)
+  * criterion-conditional classifier (Granite + LoRA) that scores text against developer-defined criteria, tuned and evaluated on safety datasets
 * [Private Detector by Bumble](https://github.com/bumble-tech/private-detector)
   * pretrained model for detecting lewd images
 * [Roblox Voice Safety Classifier](https://github.com/roostorg/model-community/tree/main/roblox-voice-safety-classifier)
@@ -74,6 +85,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * AI-powered content moderation model to detect harm in text-based interactions
 * [Llama Prompt Guard 2 by Meta](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Prompt-Guard-2/86M/MODEL_CARD.md)
   * Detects prompt injection and jailbreaking attacks in LLM inputs
+* [NOPE Crisis Screen](https://github.com/nope-net/guardrails-validator)
+  * Guardrails AI validator detecting mental health crisis signals (suicide, self-harm, abuse) in chat and LLM conversations
 * [OpenGuardrails](https://github.com/openguardrails/openguardrails)
   * Security Gateway providing a transparent reverse proxy for OpenAI apis with integrated safety protection
 * [Purple Llama by Meta](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard3)
@@ -103,6 +116,10 @@ Help contribute by opening a pull request to add more resources and tools!
 * [PII Classifier by Roblox](https://github.com/roostorg/model-community/tree/main/roblox-pii-classifier)
   * classification model that can be used for identifying attempts to share or solicit personally identifiable information in text
 * [Presidio by Microsoft](https://github.com/microsoft/presidio)
+* [OpenAI Privacy Filter](https://github.com/openai/privacy-filter)
+  * locally runnable, self-hosted model for high-throughput detection and masking of PII and secrets in text
+  * privacy redaction aid, not a Trust & Safety content moderator; it does not guarantee anonymization, compliance, or security
+* [Presidio by Microsoft](https://github.com/data-privacy-stack/presidio)
   * toolset for detecting Personal Identifiable Information (PII) and other sensitive data in images and text
 
 
@@ -133,7 +150,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * Tool for testing prompt injection vulnerabilities in AI systems
 * [Promptfoo](https://github.com/promptfoo/promptfoo)
   * Automated LLM evaluations, report generations, several ready-to-use attack strategies
-* [PyRIT by Microsoft](https://github.com/Azure/PyRIT)
+* [PyRIT by Microsoft](https://github.com/microsoft/PyRIT)
   * Microsoft’s Python-based tool for AI red teaming and security testing
 * [Socketteer](https://github.com/socketteer?tab=repositories)
   * Allows AI models to interact, helping test conversational weaknesses
@@ -194,11 +211,11 @@ Help contribute by opening a pull request to add more resources and tools!
   * interactive, open-source database that tracks allegations of foreign interference or foreign malign influence relevant to the 2024 U.S. presidential election
 * [OpenMeasures](https://gitlab.com/openmeasures)
   * open source platform for investigating internet trends
-* [ThreatExchange by Meta](https://github.com/facebook/ThreatExchange )
+* [ThreatExchange by Meta](https://github.com/meta/ThreatExchange)
   * platform that enables organizations to share information about  threats, such as malware, phishing attacks, and online safety harms in a structured and privacy-compliant manner
 * [ThreatExchange Client via PHP](https://github.com/certly/threatexchange)
   * PHP client for ThreatExchange
-* [ThreatExchange via Python](https://github.com/facebook/ThreatExchange/tree/main/python-threatexchange)
+* [ThreatExchange via Python](https://github.com/meta/ThreatExchange/tree/main/python-threatexchange)
   * Python library for ThreatExchange
 
 
@@ -229,7 +246,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * data used for reinforcement learning with human feedback (RLHF) to align AI models.
 * [AILuminate dataset by MLCommons](https://github.com/mlcommons/ailuminate)
   * Human-created prompts across different harm categories
-* [Aya Red-teaming dataset by Cohere](https://huggingface.co/datasets/CohereForAI/aya_redteaming)
+* [Aya Red-teaming dataset by Cohere](https://huggingface.co/datasets/CohereLabs/aya_redteaming)
   * multilingual red-teaming prompts across various harm categories
 * [ALERT dataset by Babelscape](https://huggingface.co/datasets/Babelscape/ALERT)
   * standard and adversarial red-teaming prompts
@@ -243,12 +260,10 @@ Help contribute by opening a pull request to add more resources and tools!
   * Questions across multiple risk areas and harm types to test LLM safety and refusal behavior
 * [Forbidden Questions dataset](https://huggingface.co/datasets/TrustAIRLab/forbidden_question_set)
   * Questions adopted from OpenAI Usage Policy
-* [HackAPrompt Jailbreak Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset/viewer/default/train?p=1&row=137)  
+* [HackAPrompt Jailbreak Dataset](https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset)
   * dataset for testing AI vulnerability to prompt-based jailbreaking
 * [HarmBench by Center for AI Safety](https://github.com/centerforaisafety/HarmBench)
   * Evaluation dataset for automated red teaming
-* [HiroKachi Jailbreak Dataset](https://sizu.me/love)  
-  * dataset focused on adversarial AI prompt attacks
 * [Jailbreak Prompt Generator AI Model](https://huggingface.co/tsq2000/Jailbreak-generator)  
   * AI model that generates jailbreak-style prompts
 * [JailbreakBench](https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors)
@@ -261,7 +276,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * Medical safety prompts to evaluate LLM safety in medical contexts
 * [Multilingual Vulnerability dataset](https://github.com/CarsonDon/Multilingual-Vuln-LLMs)
   * Multilingual prompts demonstrating LLM vulnerabilities
-* [Red Team Resistance Leaderboard](https://huggingface.co/spaces/HaizeLabs/red-teaming-resistance-benchmark)  
+* [Red Team Resistance Leaderboard](https://github.com/haizelabs/redteaming-resistance-benchmark)
   * rankings of AI models based on resistance to adversarial attacks
 * [Rentry Jailbreak Datasets](https://rentry.org/gpt0721)  
   * collection of datasets related to jailbreak attempts on AI models
@@ -273,7 +288,7 @@ Help contribute by opening a pull request to add more resources and tools!
   * regulation-grounded, hazard-focused benchmark encompassing six high-risk scientific domains: chemistry, biology, medicine, pharmacology, physics, and psychology. The benchmark comprises 3,000 prompts derived from real-world regulations and laws.
 * [TDC23-RedTeaming dataset by walledai](https://huggingface.co/datasets/walledai/TDC23-RedTeaming)
   * collection of prompts from the red teaming track at TDC23
-* [XSTest dataset](https://github.com/paul-rottger/exaggerated-safety)
+* [XSTest dataset](https://github.com/paul-rottger/xstest)
   * Prompts designed to test exaggerated safety behaviors in LLMs
  
 
@@ -281,7 +296,7 @@ Help contribute by opening a pull request to add more resources and tools!
 
 * [Automod by Bluesky](https://github.com/bluesky-social/indigo/tree/main/automod)
   * tool for automating content moderation processes for the Bluesky social network and other apps on the AT Protocol
-* [FediCheck](https://connect.iftas.org/library/iftas-documentation/fedicheck/)
+* [FediCheck](https://about.iftas.org/trust-safety-services/iftas-community-library/)
   * domain moderation tool to assist ActivityPub service providers, such as Mastodon servers, now open-sourced.
 * [Fediverse Spam Filtering](https://github.com/MarcT0K/Fediverse-Spam-Filtering/ )
   * spam filter for Fediverse social media platforms. For now, the current version is only a proof of concept.
