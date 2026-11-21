@@ -161,6 +161,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * high-performance rules engine for real-time event processing at scale, designed for Trust & Safety and anti-abuse work
 * [RulesEngine by Microsoft](https://microsoft.github.io/RulesEngine/)
   * library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
+* [signup-guard by Moonetix](https://github.com/moonetix/signup-guard)
+  * explainable sign-up risk scoring for Node.js and PHP: disposable and role email addresses, datacenter and Tor IPs, velocity limits, with a written reason for every point
 * [SQRL (Smyte Query and Rules Language)](https://github.com/sqrl-lang/sqrl)
   * Safe, stateful language for event streams; project inactive as of 2023
 * [Wikimedia Smite Spam](https://github.com/wikimedia/mediawiki-extensions-SmiteSpam)
@@ -211,6 +213,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * dataset created by NVIDIA to aid in content moderation and toxicity detection
 * [badwords by Richard Hughes](https://github.com/hughsie/badwords)
   * simple list of bad words in different locales that can be used to flag suspicious user-submitted content
+* [Datacenter IP Ranges by Moonetix](https://github.com/moonetix/datacenter-ip-ranges)
+  * daily cloud, hosting, CDN, Tor and published crawler IP ranges built from the providers' own feeds, with lookup helpers for Node.js, PHP and Python
 * [PKU-SafeRLHF dataset](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF)
   * prompts with RLHF markers for unsafe responses across multiple harm categories
 * [Toxic Chat by LMSYS](https://huggingface.co/datasets/lmsys/toxic-chat)
