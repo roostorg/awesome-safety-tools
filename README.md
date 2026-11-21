@@ -163,6 +163,8 @@ Help contribute by opening a pull request to add more resources and tools!
   * library for abstracting business logic, rules, and policies from a system via JSON  for .NET language families
 * [SQRL (Smyte Query and Rules Language)](https://github.com/sqrl-lang/sqrl)
   * Safe, stateful language for event streams; project inactive as of 2023
+* [WebDecoy Node.js SDK](https://github.com/WebDecoy/node)
+  * Node.js middleware with local tripwire, request filtering, and rate-limit rules for detecting and limiting automated abuse
 * [Wikimedia Smite Spam](https://github.com/wikimedia/mediawiki-extensions-SmiteSpam)
   * extension for MediaWiki that helps identify and manage spam content on a wiki
 
